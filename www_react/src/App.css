@@ -1,0 +1,167 @@
+body {
+  background-color: grey;
+  background-image: url('./images/workout_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #1F186F;
+}
+
+.App{
+  text-align: center;
+  justify-content: center;
+  display: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.App-name {
+  color: #AEDD55;
+  font-size: 50px;
+  font-family: 'Century Gothic';
+  margin: 0;
+  padding-top: 20px;
+}
+
+.App-tagline {
+  color: #F4BC0B;
+  font-size: 17px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.App-link {
+  display: inline-block;
+  padding: 7px 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-weight: 300;
+  color: #ffffffe3;
+  background-color: #91ACD7;
+  text-align: center;
+  transition: all 0.2s;
+
+}
+
+.App-link:hover{
+  background-color: #a0ccff;
+}
+
+.entry-header{
+  color: #C291E1;
+  font-size: 35px;
+  font-family: 'Century Gothic';
+}
+
+table {
+  min-height: 75vh;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1F186F;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+tr:nth-child(even){
+  background-color: #eaf2f8;
+}
+
+tr:nth-child(odd){
+  background-color: #f9fafe;
+}
+
+#exercise-row:hover {background-color: rgb(235, 235, 235);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7EC7D0;
+  color: #f9fafe;
+}
+
+input{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 15px;
+  width: 85%;
+  background: transparent;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #32657D;
+  color: #32657D;
+}
+
+select{
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 15px;
+  color: #32657D;
+  border: 1px solid #E8EAED;
+  padding: 7px 40px 7px 12px;
+  box-shadow: 0 1px 3px -2px #9098A9;
+  cursor: pointer;
+}
+
+button {
+  background-color: #E47E1B;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 15px;
+  color: #ffffffe3;
+  padding: 16px 25px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 2px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 2em;
+  transition: all 0.2s;
+}
+
+button:hover{
+  background-color:#E99849;
+}
+
+.edit-add-buttons{
+  text-align: right;
+}
+
+footer {
+  color: #ddd;
+  position: relative;
+  left:0px;
+  bottom:5px;
+  height:20px;
+  width:100%;
+}
